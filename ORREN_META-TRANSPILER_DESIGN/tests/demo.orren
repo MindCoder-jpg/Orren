@@ -1,0 +1,11 @@
+function greet user:
+    if time < 12:
+        return "Good morning, " + user
+    else:
+        return "Hello, " + user
+
+function launch mode "admin":
+    if double_click on "B" go:
+        open "admin.site.mode"
+    if single_click on "B":
+        launch "app.link"
