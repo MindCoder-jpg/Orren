@@ -1,0 +1,71 @@
+# ===========================================
+# ORREN PROJECT .gitignore
+# ===========================================
+# Author: AZURA DAEMON
+# Organization: MindCoder (HAEL Initiative)
+# Purpose: Keep the Orren repository clean,
+# secure, and professional.
+# ===========================================
+
+# -----------------------------
+# Core build and temp files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+*.env
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+venv/
+.env/
+.cache/
+.mypy_cache/
+pytest_cache/
+
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+.next/
+out/
+*.map
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.o
+*.a
+*.class
+*.jar
+*.wasm
+
+# Orren-specific (language, modules, runtime)
+*.orren~
+*.orrlog
+*.orrtmp
+*.orrtest
+orren_cache/
+orren_build/
+orren_output/
+orren_dev/
+orren_private/
+Scott/
+HAEL/
+
+# Transpiled targets
+/public/
+generated
