@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# lightweight launcher: prefer virtualenv-python if present, else system python
+DIR="$(cd "$(dirname "$0")/.." && pwd -P)"
+PYTHON=\${PYTHON:-python}
+# run the CLI runner
+exec "\$PYTHON" "\$DIR/src/cli/orn_runner.py" "\$@"
