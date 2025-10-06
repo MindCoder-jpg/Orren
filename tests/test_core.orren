@@ -1,0 +1,17 @@
+# Orren Core Syntax Test
+let x = 5
+let y = 10
+show "Testing ORN Core"
+show x
+show y
+do print(x + y)
+
+def add(a, b) -> a + b
+show add(3, 4)
+
+if x < y
+then show "x is smaller"
+else show "x is larger"
+
+loop 3: show "looping..."
+end
